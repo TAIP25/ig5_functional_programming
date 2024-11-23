@@ -229,6 +229,40 @@ val sum = reduceList.reduceLeft((x, y) => x + y)
 // COMMAND ----------
 
 // MAGIC %md
+// MAGIC # Day 3
+
+// COMMAND ----------
+
+(x: Int) => x + 1
+
+// COMMAND ----------
+
+val addOne = (x: Int) => x + 1
+println(addOne(1)) // 2
+
+// COMMAND ----------
+
+val add = (x: Int, y: Int) => x + y
+println(add(1, 2)) // 3
+
+// COMMAND ----------
+
+val getTheAnswer = () => 42
+println(getTheAnswer()) // 42
+
+// COMMAND ----------
+
+// MAGIC %md
+// MAGIC ## Methods
+
+// COMMAND ----------
+
+def add(x: Int, y: Int): Int = x + y
+println(add(1, 2)) // 3
+
+// COMMAND ----------
+
+// MAGIC %md
 // MAGIC # Day 4
 
 // COMMAND ----------

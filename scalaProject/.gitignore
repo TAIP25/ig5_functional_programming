@@ -1,0 +1,4 @@
+# Scala project files
+target/
+project/target/
+.bsp
