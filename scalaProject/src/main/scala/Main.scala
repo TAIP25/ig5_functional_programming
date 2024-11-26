@@ -1,5 +1,4 @@
 import org.apache.spark.sql.{SaveMode, SparkSession, functions => F}
-import   
 
 object Main {
   def main(args: Array[String]): Unit = {
